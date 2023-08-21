@@ -9,7 +9,7 @@ const ContactCard = props => {
             <div className='user-details'>
                 <p>Name: {props.name}</p>
                 <p>Email: {props.email}</p>
-                <button onClick = {() => setShowAge(!showAge)}>Toggle Age</button>
+                <button onClick = {() => setShowAge(!showAge)}>Show/Hide Age</button>
                 {showAge && <p>Age: {props.age}</p>}
             </div>
             

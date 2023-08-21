@@ -2,9 +2,6 @@ import React, {useState, useEffect} from "react";
 import "./styles.css";
 import ContactCard from "./ContactCard";
 
-
-
-
 const App = () => {
     const [contacts, setContacts] = useState([])
     useEffect(() => {
