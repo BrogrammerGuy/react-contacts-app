@@ -17,5 +17,4 @@ const ContactCard = props => {
     )
 }
 
-
 export default ContactCard
